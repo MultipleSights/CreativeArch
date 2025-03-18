@@ -57,8 +57,8 @@
 /* Position the first div */
 .overlay {
     position: absolute; /* Add this to enable positioning */
-    top: 170px; /* Distance from the top */
-    left: 600px; /* Distance from the left */
+    top: 30%; /* Distance from the top */
+    left: 40vw;  /* Distance from the left */
     height: 100px;
     width: 330px;
     background-color: rgba(255, 0, 0, 0.453);
@@ -72,17 +72,28 @@
     text-transform: uppercase;
     letter-spacing: 0.20em;
     padding: 1px;
+    display: none;
+    transition: 1s ease-in-out;
 }
+
 
 #co_name{
     border-bottom: 3px black solid;
 }
 
-.overlay-2 {
+.btn2 {
     top: auto; /* Reset top */
-    bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
+    bottom: 25%; /* Distance from the bottom */
+    right: 40vw; /* Distance from the right */
     left: auto; /* Reset left */
     text-transform: uppercase;
     letter-spacing: 0px;
 }
+
+.btn3 {
+    top: auto;
+    bottom: 25%;
+    right: 17vw;
+    left: auto;
+}
+
